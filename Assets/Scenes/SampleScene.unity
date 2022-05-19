@@ -638,7 +638,7 @@ GameObject:
   - component: {fileID: 854567513}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1075,8 +1075,8 @@ GameObject:
   - component: {fileID: 2015683214}
   - component: {fileID: 2015683215}
   m_Layer: 0
-  m_Name: Batt
-  m_TagString: Untagged
+  m_Name: Bat
+  m_TagString: Bat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
