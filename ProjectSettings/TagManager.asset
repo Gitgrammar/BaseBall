@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Bat
   - Ground
+  - Stadium
+  - Wall
   layers:
   - Default
   - TransparentFX

@@ -7,7 +7,7 @@ public class ShootBall : MonoBehaviour
     
         float timer = 0.0f;//force strenth
         float timeLimit = 1.0f;
-        bool shootSwitch;
+        public static bool shootSwitch;
 
     void Start()
     {
@@ -18,7 +18,10 @@ public class ShootBall : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime;
+        if (shootSwitch)
+        {
+            timer += Time.deltaTime;
+        }
         if ((timer > timeLimit) & shootSwitch)
         {
             float z = 2000;
