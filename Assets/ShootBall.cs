@@ -24,7 +24,7 @@ public class ShootBall : MonoBehaviour
         }
         if ((timer > timeLimit) & shootSwitch)
         {
-            float z = 2000;
+            float z = 2200;
         Rigidbody rd = GetComponent<Rigidbody>();
 
         rd.AddForce(0, 0, -z);
