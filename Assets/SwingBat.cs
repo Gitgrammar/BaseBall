@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class SwingBat : MonoBehaviour
 {
-    private int r = 35; //rotation speed
+    private int r = 95; //rotation speed
     private int r_sum = 0;
     private int r_max = 360;
 
