@@ -1797,6 +1797,7 @@ GameObject:
   - component: {fileID: 2015683211}
   - component: {fileID: 2015683214}
   - component: {fileID: 2015683215}
+  - component: {fileID: 2015683216}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -1907,6 +1908,19 @@ FixedJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &2015683216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015683209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c783b937cc0aa4f64bbe3263e9b1f445, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seBat: {fileID: 0}
 --- !u!1 &2056444579
 GameObject:
   m_ObjectHideFlags: 0
