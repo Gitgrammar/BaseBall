@@ -13,12 +13,13 @@ public class CountDownTimer : MonoBehaviour
         gameTimerFloat = 60.0f;
         gameTimerInt = (int)gameTimerFloat;
         timeText.text = "" + gameTimerInt.ToString();
-        
+
     }
 
     void Update()
     {
-        if (gameTimerFloat>0.0f){
+        if (gameTimerFloat > 0.0f)
+        {
             gameTimerFloat -= Time.deltaTime;
             gameTimerInt = (int)gameTimerFloat;
             timeText.text = "" + gameTimerInt.ToString();
@@ -29,6 +30,13 @@ public class CountDownTimer : MonoBehaviour
             gameTimerInt = 0;
             timeText.text = "" + gameTimerInt.ToString();
         }
-        
+
+
+
+        if (gameTimerFloat <= 0.0f)
+        {
+            gameTimerInt = 0;
+            timeText.text = "" + gameTimerInt.ToString();
+        }
     }
 }
