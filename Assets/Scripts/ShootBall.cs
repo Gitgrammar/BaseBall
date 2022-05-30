@@ -5,8 +5,8 @@ public class ShootBall : MonoBehaviour
 {
     // Start is called before the first frame update
     
-        float timer = 0.0f;//force strenth
-        float timeLimit = 1.0f;
+        private float timer = 0.0f;//force strenth
+        private float timeLimit = 1.0f;
         public static bool shootSwitch;
 
     void Start()
@@ -31,6 +31,10 @@ public class ShootBall : MonoBehaviour
             timer = 0.0f;
             shootSwitch = false;
 
+        }
+        if (CountDownTimer.gameTimerInt == 0)
+        {
+            shootSwitch = false;
         }
     }
 }

@@ -1,11 +1,10 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class CountDownTimer : MonoBehaviour
 {
-    private int gameTimerInt;
+    public static int gameTimerInt;
     private float gameTimerFloat;
     public Text timeText;
 
